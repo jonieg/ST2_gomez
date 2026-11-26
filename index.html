@@ -1,0 +1,172 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Philippine Travel Guide</title> 
+ 
+    <style> 
+        body { 
+            font-family: 'Papyrus', 'Copperplate', fantasy;
+            background-color: #C8B48A(0, 54%, 93%); 
+            padding: 30px; 
+            background-image: url("https://i.pinimg.com/1200x/11/4c/6e/114c6e67ee8c30bba0197f566dfd1a14.jpg");
+        } 
+ 
+       .banner-container {
+        width: 100%;
+        height: 300px; 
+         overflow: hidden;
+        }
+
+    .banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+    }
+
+        h1 { 
+            text-align: center; 
+            color: #d68e45; 
+            font-size: 60px;
+                text-shadow: 0.5px 2px 2px black;
+        } 
+ 
+        
+        .menu { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 15px; 
+            flex-wrap: wrap; 
+            background-color: #EEEAD7; 
+            padding: 20px; 
+            border-radius: 12px; 
+        } 
+ 
+        
+        .menu-item { 
+            position: relative; 
+        } 
+ 
+        .menu a { 
+            display: block; 
+            background-color: #d68e45; 
+            color: black; 
+            padding: 12px 20px; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            transition: 0.3s ease; 
+                 font-family: "Comic Sans MS", cursive, sans-serif;
+                 text-shadow: 0.5px 0.5px 2px black;
+        } 
+ 
+        
+        .menu a:hover { 
+            background-color: #757D6F; 
+            color: #222; 
+            transform: translateY(-5px); 
+            box-shadow: 0 0 10px #0a0400, 
+                        0 0 25px #C8B48A; 
+        } 
+ 
+         
+        .submenu { 
+            display: none; 
+            position: absolute; 
+            top: 100%; 
+            left: 0; 
+            min-width: 160px; 
+            background-color: #C8B48A; 
+            padding: 8px; 
+            border-radius: 8px; 
+            z-index: 10; 
+        } 
+ 
+        
+        .menu-item:hover .submenu { 
+            display: block; 
+        } 
+ 
+       
+        .submenu a { 
+            background-color: #73A5CA; 
+            margin: 5px 0; 
+            border-radius: 5px; 
+        } 
+ 
+        .submenu a:hover { 
+            background-color: #757D6F; 
+            transform: translateX(5px); 
+        } 
+
+        footer {
+            margin-top: 50px;
+            background-color: #EEEAD7;
+            padding: 22px;
+            text-align: center;
+            border-radius: 12px;
+            color: #6D5036;
+            line-height: 1.8;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        text-shadow: 0.5px 0.5px 1px black;    
+        }
+ 
+    </style> 
+</head> 
+ 
+<body> 
+
+ <div class="banner-container">
+  <img src="mangoe.svg" alt="Website Banner" class="banner-img">
+</div>
+ 
+    <h1>🥭｡‧˚ʚ{WEBSITE MENU}ɞ˚‧｡🥭</h1> 
+ 
+    <nav class="menu"> 
+ 
+         
+        <div class="menu-item"> 
+            <a href="#">Home</a> 
+            <div class="submenu"> 
+                <a href="#">Welcomeɞ˚‧｡🥭</a> 
+                <a href="#">Featured Destinationsɞ˚‧｡🥭</a> 
+            </div> 
+        </div> 
+ 
+         
+        <div class="menu-item"> 
+            <a href="#">About</a> 
+            <div class="submenu"> 
+                <a href="ABOUTTHEPHILIPPINES.html">About the Philippinesɞ˚‧｡🥭</a> 
+                <a href="OURCULTURE.html">Our Cultureɞ˚‧｡🥭</a>  
+            </div> 
+        </div> 
+ 
+        
+        <div class="menu-item"> 
+            <a href="#">Gallery</a> 
+            <div class="submenu"> 
+                <a href="TOURISTDESTINATION.html">Tourist Destinationsɞ˚‧｡🥭</a> 
+                <a href="PHOTOCOLLECTION.html">Photo Collectionɞ˚‧｡🥭</a> 
+            </div> 
+        </div> 
+ 
+        
+        <div class="menu-item"> 
+            <a href="#">Contact</a> 
+            <div class="submenu"> 
+                <a href="#">Send a Messageɞ˚‧｡🥭</a> 
+                <a href="#">Contact Informationɞ˚‧｡🥭</a> 
+            </div> 
+        </div> 
+ 
+    </nav> 
+ 
+  <footer id="contact">
+        <h3>🥭 Philippine Travel Guide 🥭</h3>
+        <p>Explore the beauty. Experience the culture. Love the Philippines!</p>
+        <p>© 2026 MANGO DRIFT TOURS | Made by: Jonie Gomez</p>
+    </footer>
+
+</body> 
+</html> 

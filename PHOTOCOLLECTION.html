@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Photo Collection</title> 
+ 
+<style> 
+ 
+    body { 
+        font-family: 'Papyrus', 'Copperplate', fantasy;
+        font-size: 26px;
+        text-align: center; 
+        background-image: url("https://i.pinimg.com/1200x/0b/e0/a0/0be0a0f158ff0c2ff499a7441f86474c.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+    } 
+ 
+    h1 { 
+        color: #15370D; 
+    } 
+ 
+    img { 
+        width: 500px; 
+        height: 300px; 
+        border: 5px solid #D98327; 
+        border-radius: 15px; 
+        transition: 0.5s; 
+        filter: none; 
+    } 
+ 
+    img:hover { 
+        transform: scale(1.30); 
+    } 
+ 
+    button { 
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        padding: 10px 20px; 
+        margin: 5px; 
+        cursor: pointer; 
+        background-color: #E5CD82; 
+        color: black; 
+        border: none; 
+        border-radius: 5px; 
+    } 
+ 
+    button:hover { 
+        background-color: #FFF2B4; 
+    } 
+ 
+</style> 
+ 
+</head> 
+ 
+<body> 
+ 
+<script> 
+ 
+document.writeln("<h1>TOURIST SPOTS IN SUNSETS</h1>"); 
+ 
+document.writeln("<img id='gallery' src='aw.svg'>"); 
+
+document.writeln("<br><br>"); 
+ 
+document.writeln("<button onclick=\"document.getElementById('gallery').src='https://i.pinimg.com/1200x/b1/44/c1/b144c167b066ca09654ce250593d7f08.jpg'\">Palawan</button>"); 
+ 
+document.writeln("<button onclick=\"document.getElementById('gallery').src='https://i.pinimg.com/1200x/53/9b/95/539b9505864e0e8824ad859499274ecb.jpg'\">Bohol</button>"); 
+ 
+document.writeln("<button onclick=\"document.getElementById('gallery').src='https://i.pinimg.com/736x/14/1a/a6/141aa666424482b61cb968f5f86b9574.jpg'\">Intramuros</button>"); 
+ 
+document.writeln("<button onclick=\"document.getElementById('gallery').src='https://i.pinimg.com/736x/84/48/fc/8448fca40a65211782abdb3efdd907c0.jpg'\">Siargao</button>"); 
+ 
+document.writeln("<br><br>"); 
+ 
+document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='blur(5px)'\">BLUR</button>"); 
+ 
+document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='grayscale(100%)'\">GRAYSCALE</button>"); 
+document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='brightness(150%)'\">BRIGHTNESS</button>"); 
+document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='sepia(100%)'\">SEPIA</button>"); 
+document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='none'\">NORMAL</button>"); 
+</script> 
+</body> 
+</html>
